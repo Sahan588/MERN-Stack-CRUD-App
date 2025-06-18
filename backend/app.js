@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/user", route);
 
-mongoose.connect("mongodb+srv://admin:zzzzq@cluster0.mjscjgl.mongodb.net/")
+mongoose.connect("mongodb+srv:/")
 .then(() => {
     console.log("Connected to MongoDB");
 })  
